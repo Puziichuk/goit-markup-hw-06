@@ -631,6 +631,32 @@ position: relative;
     margin-top: 20px;
 }
 
+
+.section-subscribe{
+    margin-left: 93px;
+}
+
+.form{
+    margin-top: 20px;
+
+}
+
+.button.subscribe{
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-footer{
+    align-self: center;
+}
+
+.icon.subscribe{
+    margin-left: 10px;
+}
+
+
 /* ======================style for portfolio.html ==================*/
 
 
