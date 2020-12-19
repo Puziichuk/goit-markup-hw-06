@@ -57,12 +57,48 @@
                     </svg>
                 </button> 
                </div>
-               <p>Оставьте свои данные, мы вам перезвоним</p>
-               <form class="form"><input type="text" name="message" placeholder="Имя"/> </form>
-               <form class="form"><input type="text" name="message" placeholder="Телефон"/> </form>
-               <form class="form"><input type="text" name="message" placeholder="Почта"/> </form>
-               <button type="button" value="Отправить" class="button">Отправить</button>
-
+               <p class="call-back">Оставьте свои данные, мы вам перезвоним</p>
+               <form action="#" class="modal__form">
+                <label class="modal__form-field">
+                    Имя
+                    <span class="modal__form-input-wrapper">
+                        <input type="text" name="user_name" class="modal__form-input">
+                        <svg class="modal__form-icon" width="18px" height="18px">
+                            <use href="./images/sprite.svg#icon-Vector-4">
+                        </use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal__form-field">
+                    Телефон
+                    <span class="modal__form-input-wrapper">
+                        <input type="tel" name="user_tel" class="modal__form-input">
+                        <svg class="modal__form-icon" width="18px" height="18px">
+                            <use href="./images/sprite.svg#icon-Vector-5">
+                        </use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal__form-field">
+                    Почта
+                    <span class="modal__form-input-wrapper">
+                        <input type="email" name="email" class="modal__form-input">
+                        <svg class="modal__form-icon" width="18px" height="18px">
+                            <use href="./images/sprite.svg#icon-Vector-3">
+                        </use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal__form-field">
+                    Комментарий
+                    <textarea class="modal__form-message" name="user_message" placeholder="Введите текст"></textarea>
+                </label>
+                <input id="user-policy" type="checkbox" name="user_policy" value="accept-policy"
+                    class="modal__form-policy visually-hidden">
+                <label for="user-policy" class="modal__form-policy-text">Соглашаюсь с рассылкой и принимаю <a
+                        href="#">Условия
+                        договора</a></label>
+                <button type="submit" class="button">Отправить</button>
             </div>
         </div>
 </section>
@@ -381,7 +417,7 @@
         </div>
         <div class="section-subscribe">
             <h7 class="join-title">Подпишитесь на рассылку</h7>
-            <form class="form"><input type="text" name="message" placeholder="E-mail"/> </form>   
+            <form class="form"><input type="email" name="email" class="form-input-footer"placeholder="E-mail"/> </form>   
         </div>
         <div class="button-footer">
             <button type="button" value="Подписаться" class="button subscribe" >Подписаться
