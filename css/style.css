@@ -762,15 +762,13 @@ position: relative;
 
 
 .button.subscribe{
+    height: 50px;
     margin-left: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.button-footer{
-    align-self: center;
-}
 
 .icon.subscribe{
     margin-left: 10px;
@@ -784,8 +782,14 @@ position: relative;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: #2F303A;
-    margin-top: 20px;
+    padding-left: 16px;
+
     
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
 
 
