@@ -668,6 +668,7 @@ position: relative;
 
 .address {
     display: inline-block;
+    width: 231px;
     margin-bottom: 9px;
     color: var(--white-color);
     font-style: normal;
